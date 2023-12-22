@@ -12,7 +12,7 @@ st.markdown(
     """
 )
 
-all_df = pd.read_csv('all_data_dashboard.csv')
+all_df = pd.read_csv('./dashboard/all_data_dashboard.csv')
 all_df.reset_index(inplace=True)
 
 question_1, question_2, question_3 = st.tabs(["Visualisasi 1", "Visualisasi 2", "Visualisasi 3"])
